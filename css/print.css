@@ -5,22 +5,28 @@ body {
 
 nav {
     display: flex;
+    flex: 2 1 auto;
+}
+
+.nav_links {
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
 }
 
 .pricing {
     display: flex;
     flex-direction: row;
-    /* align-items: flex-end; */
 }
 
 .card {
-    flex-basis: 325px;
+    width: 325px;
+    flex-basis: auto;
     border: 2px solid #45ADDD;
     align-self: flex-end;
 }
 
-.gallery {
+#gallery, .gallery {
     display: none;
     visibility: hidden;
 }

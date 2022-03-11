@@ -68,15 +68,22 @@ header {
   @media screen and (min-width: 900px){
     
     body > header {
-      position: fixed;
       display: flex;
       justify-content: space-between;
       flex-flow: row wrap;
+      /* overflow: scroll; */
+      position: fixed;
+      top: 0;
+      width: 100%;
     }
 
     .nav_links {
       display: flex;
       flex-flow: row nowrap;
+    }
+    
+    main {
+      padding-top: 100px;
     }
 
     .pricing {
